@@ -1,2 +1,3 @@
-# HA-f1Schedule
-Home Assistant integration for upcoming F1 races.
+# F1 Schedule for Home Assistant
+
+## Installation

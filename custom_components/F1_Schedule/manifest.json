@@ -1,0 +1,11 @@
+{
+  "codeowners": ["@fimathias"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/fimathias/HA-f1Schedule",
+  "domain": "F1_Schedule",
+  "iot_class": "local_push",
+  "name": "F1 Schedule",
+  "requirements": [],
+  "version": "1.0.0"
+}
