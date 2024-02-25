@@ -1,7 +1,19 @@
-from homeassistant import core
+from __future__ import annotations
+
+from homeassistant.core import HomeAssistant
+from homeassistant.helpers.typing import ConfigType
 
 
-async def async_setup(hass: core.HomeAssistant, config: dict) -> bool:
+from .const import (
+    DOMAIN,
+    UPDATE_FREQ,
+    FILTER,
+)
+
+DOMAIN
+
+def setup(hass: HomeAssistant, config: ConfigType) -> bool:
     """Set up the F1 Schedule component."""
-    # @TODO: Add setup code.
+    hass.states.set('F1_Schedule.Hello_World', 'Works!')
     return True
+
